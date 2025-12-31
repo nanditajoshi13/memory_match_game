@@ -28,13 +28,20 @@ problems in an engaging way.
 - Easy to extend (e.g. add scoring system, timer).
 - Dynamically choose the number of pairs.
 ## How to Run
-1.  Clone the repository:  
-git clone https://github.com/nanditajoshi13/memory_match_game.git
+### Option 1: Clone from GitHub
+1. Clone the repository:  
+   git clone https://github.com/nanditajoshi13/memory_match_game.git
 2. Navigate to the project folder:  
    cd memory_match_game
 3. Run the game:  
    g++ memory_match.cpp -o memory_match
 4. Run the executable:  
+   ./memory_match
+### Option 2: Copy-Paste
+1. Open _memory_match.cpp_ from this repository.
+2. Copy the code into your own IDE or terminal.
+3. Compile and run:  
+   g++ memory_match.cpp -o memory_match  
    ./memory_match
 ## Learning Outcomes
 - Practical application of **abstract data types** in C++.
